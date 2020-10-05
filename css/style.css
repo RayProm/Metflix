@@ -1,0 +1,189 @@
+* {
+ box-sizing: border-box;
+}
+body {
+ margin: 0;
+ background-color: #141414; 
+}
+h1 {
+	color: red;
+ 	opacity: 0.8;
+}
+.video-container {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background-color: red;
+ z-index: -1;
+}
+.video {
+ bottom: 0;
+ right: 0;
+ position: absolute;
+ min-width: 100%;
+ min-height: 100%;
+}
+.video-description {
+ color: black;
+ position: absolute;
+ left: 10px;
+ bottom: 50%;
+ width: 30%;
+ padding: 30px 20px 30px;
+}
+ /*text-shadow: -2px 2px 2px #000000;*/
+.video-description  h1{
+ font-size: 39px;
+}
+.col-1 {
+	width: 50%;
+}
+.btn-1:hover {
+	background-color: blue;
+}
+.btn-2:hover {
+	background-color: blue;
+}
+.btn-1, .btn-2 {
+  font-size: 12px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 11px;
+  float: left;
+}
+.btn-1 {
+  background-color: white;
+  color: black;
+  width: 135px;
+}
+.btn-2 {
+  background-color: white;
+  color: black;
+  width: 170px;
+}
+
+/*
+div[class^='caja']{
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: red;
+	top: 6px;
+	left: 6px;
+	text-shadow: -2px 2px 2px #000000; 
+}*/
+.caja2{
+	font-size: 35px;
+	position: absolute;
+	padding: 5px 10px;
+	color: red;
+	top: 6px;
+	left: 8px;
+	text-shadow: -2px 2px 2px #000000; 
+}
+.caja3{
+	font-size: 20px;
+	position: absolute;
+	padding: 5px 10px;
+	color: black;
+	top: 15px;
+	left: 130px;
+}
+.caja4{
+	font-size: 20px;
+	position: absolute;
+	padding: 5px 10px;
+	color: black;
+	top: 15px;
+	left: 190px;
+}
+.caja5{
+	font-size: 20px;
+	position: absolute;
+	padding: 5px 10px;
+	color: black;
+	top: 15px;
+	left: 255px;
+}
+.caja6{
+	font-size: 20px;
+	position: absolute;
+	padding: 5px 10px;
+	color: black;
+	top: 15px;
+	left: 340px;
+}
+.caja7{
+	font-size: 18px;
+	position: absolute;
+	padding: 5px 10px;
+	color: black;
+	top: 3px;
+	left: 1160px;
+}
+.logo-1{
+	width: 40px;
+	position: absolute;
+	padding: 5px 10px;
+	top: -10px;
+	right: -800px;
+}
+.logo-2{
+	width: 40px;
+	position: absolute;
+	padding: 5px 10px;
+	top: -10px;
+	right: -895px;
+}
+.caja3:hover {
+	color: white;
+}
+.caja4:hover {
+	color: white;
+}
+.caja5:hover {
+	color: white;
+}
+.caja6:hover {
+	color: white;
+}
+.caja7:hover {
+	color: white;
+}
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-series {
+ display: flex;
+ justify-content: space-around;
+ margin-top:-75px;
+}
+.series {
+ width: 270px;
+ height: 220px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ padding: 50px 4px 30px 4px;
+
+}
+.img-1 {
+	width: 100%;
+	height: 100%;
+}
+.img-2 {
+	width: 18%;
+}
+.img-3 {
+	width: 12%;
+}
+/*
+.series:nth-child(odd) {
+ background-color: red;
+}
+.series:nth-child(even) {
+ background-color: blue;
+}*/
